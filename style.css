@@ -1,8 +1,18 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html{
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+
+body{
+  background-color: #193549;
+  color: whitesmoke;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+}
+.js-span{
+  color: rgb(207, 228, 115);
+}
+
+.controls{
+  margin-bottom: 15px;
 }
