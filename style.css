@@ -10,9 +10,15 @@ body{
   font-size: 35px;
 }
 .js-span{
-  color: rgb(207, 228, 115);
+  color: var(--base-color);
 }
 
 .controls{
   margin-bottom: 15px;
+}
+
+img{
+  background: var(--base-color);
+  padding: var(--spacing);
+  filter: blur(var(--blur));
 }

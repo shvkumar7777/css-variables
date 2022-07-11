@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./style.css"></script>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
@@ -14,13 +14,13 @@
     <h1>Update CSS variables with <span class="js-span">JS</span></h1>
     <div class="controls">
       <label for="spacing" >Spacing:</label>
-      <input type="range" name="spacing" id="spacing">
-      <label for="spacing" >Blur:</label>
-      <input type="range" name="blur" id="blur">
-      <label for="spacing" >Color:</label>
-      <input type="color" name="color" id="color">
+      <input type="range" name="spacing" min="10" max="200" value="10" data-suffix="px">
+      <label for="blur" >Blur:</label>
+      <input type="range" name="blur"   min="0" max="100" value="10" data-suffix="px">
+      <label for="base-color" >Color:</label>
+      <input type="color" name="base-color" >
   </div>
     <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500" alt="image_from_unsplash ">
-    <script type="module" src="/main.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
